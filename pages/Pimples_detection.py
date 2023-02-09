@@ -12,7 +12,7 @@ exp_change_num = 0
 if button_pim:
     stop = st.button("STOP")
     video = cv2.VideoCapture(0)
-    model = torch.hub.load(r'ultralytics/yolov5', 'custom', path = r"pimples_weights.pt" )
+    model = torch.hub.load(r'yolov5', 'custom',source="local", path = r"pimples_weights.pt" )
     classes_list = model.names
     detected_object_name_list = []
 
