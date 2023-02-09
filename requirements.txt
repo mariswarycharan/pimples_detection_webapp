@@ -1,6 +1,6 @@
-opencv_python_headless==4.6.0.66
+opencv_python_headless==4.5.2.52
 streamlit==1.14.1
 torch==1.13.1
-opencv-python==4.5.5.64
-opencv-contrib-python==4.6.0.66
+opencv-python==4.5.2.52
+opencv-contrib-python==4.5.2.52
 pyinstaller==5.6.2
